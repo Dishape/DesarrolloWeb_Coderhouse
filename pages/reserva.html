@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reserva - Odyssey</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="main-title"><a href="../index.html">Odyssey</a></h1>
+      <nav>
+        <ul>
+          <li><a href="destinos.html">Destinos</a></li>
+          <li><a href="alojamientos.html">Alojamientos</a></li>
+          <li><a href="actividades.html">Actividades</a></li>
+          <li><a href="reserva.html">Reserva</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <img src="../assets/booking.jpg" alt="Reserva tu lugar" />
+      </section>
+      <section>
+        <form action="" method="POST">
+          <h4>Reservá tu lugar</h4>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Nombre y apellido"
+          />
+          <br /><br />
+          <input
+            type="tel"
+            name="telefono"
+            id="telefono"
+            placeholder="Telefono"
+          />
+          <br /><br />
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <br /><br />
+          <textarea
+            name="comments"
+            id="comments"
+            cols="30"
+            rows="10"
+            placeholder="Contanos en que podemos ayudarte..."
+          ></textarea>
+          <br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+      <br />
+      <footer>
+        <span>&copy; 2023 Oddysey. Todos los derechos reservados.</span>
+      </footer>
+    </main>
+  </body>
+</html>
