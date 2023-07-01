@@ -16,34 +16,58 @@
     />
   </head>
   <body>
-    <header>
-      <h1 class="main-title">Odyssey</h1>
+    <!-- NAVBAR -->
+    <header class="barra-menu">
+      <div class="bm-title--container">
+        <h1 class="bm-title">Odyssey</h1>
+      </div>
       <nav>
-        <ul>
-          <li><a href="./pages/destinos.html">Destinos</a></li>
-          <li><a href="./pages/alojamientos.html">Alojamientos</a></li>
-          <li><a href="./pages/actividades.html">Actividades</a></li>
-          <li><a href="./pages/reserva.html">Reserva</a></li>
-          <li><a href="./pages/faq.html">FAQ</a></li>
+        <ul class="bm-list">
+          <li class="bm-list--li">
+            <a href="./pages/destinos.html">Destinos</a>
+          </li>
+          <li class="bm-list--li">
+            <a href="./pages/alojamientos.html">Alojamientos</a>
+          </li>
+          <li class="bm-list--li">
+            <a href="./pages/actividades.html">Actividades</a>
+          </li>
+          <li class="bm-list--li">
+            <a href="./pages/reserva.html">Reserva</a>
+          </li>
+          <li class="bm-list--li"><a href="./pages/faq.html">FAQ</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <img
-        src="./assets/playa-atardecer.jpg"
-        alt="Atardecer en una playa"
-        class="main-img"
-      />
-      <p>
-        Disfruta de las maravillas de la naturaleza en nuestras increíbles
-        vacaciones. Sumérgete en la serenidad de un atardecer en la playa, donde
-        la belleza del cielo se funde con la tranquilidad del mar. Acompañado
-        por la cálida brisa y la compañía de personas encantadoras, vivirás
-        momentos inolvidables en tus viajes con Odyssey.
-      </p>
-    </main>
-    <footer>
-      <span>&copy; 2023 Oddysey. Todos los derechos reservados.</span>
-    </footer>
+    <div class="main-container">
+      <main>
+        <!-- GALERIA -->
+        <section class="galeria-container">
+          <div class="main-img--container">
+            <img
+              class="main-img"
+              src="./assets/playa-atardecer.jpg"
+              alt="Atardecer en una playa"
+            />
+          </div>
+        </section>
+        <section class="p-container">
+          <p>
+            Disfruta de las maravillas de la naturaleza en nuestras increíbles
+            vacaciones. Sumérgete en la serenidad de un atardecer en la playa,
+            donde la belleza del cielo se funde con la tranquilidad del mar.
+            Acompañado por la cálida brisa y la compañía de personas
+            encantadoras, vivirás momentos inolvidables en tus viajes con
+            Odyssey.
+          </p>
+        </section>
+      </main>
+      <!-- FOOTER -->
+    </div>
+    <div class="footer-container">
+      <footer>
+        <span>&copy; 2023 Oddysey. Todos los derechos reservados.</span>
+      </footer>
+    </div>
   </body>
 </html>
